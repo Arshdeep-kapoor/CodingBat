@@ -12,8 +12,6 @@ def array123(nums):
         if nums[i] == 1 and nums[i+1] == 2 and nums[i+2] == 3:
             return True
     return False
- 
--------------------------------------------------------------------
 
 #Question 2
 # Given an array of ints, return the number of 9's in the array.
@@ -30,7 +28,6 @@ def array_count9(nums):
             count += 1
     return count
  
--------------------------------------------------------------------
 
 #Question 3
 # Given an array of ints, return True if one of the first 4 elements
@@ -46,7 +43,6 @@ def array_front9(nums):
         return 9 in nums[:4]
     return 9 in nums
  
--------------------------------------------------------------------
 
 #Question 4
 # Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars,
@@ -62,7 +58,6 @@ def front_times(str, n):
         return str[0:3] * n
     return str * n
  
--------------------------------------------------------------------
 
 #Question 5
 # Given a string, return the count of the number of
@@ -82,7 +77,6 @@ def last2(str):
             count += 1
     return count
  
--------------------------------------------------------------------
 
 #Question 6
 # Given 2 strings, a and b, return the number of the positions
@@ -103,7 +97,6 @@ def string_match(a, b):
             count += 1
     return count
  
--------------------------------------------------------------------
 
 #Question 7
 # Given a string, return a new string made of every other
@@ -121,7 +114,6 @@ def string_bits(str):
             result += str[i]
     return result
  
--------------------------------------------------------------------
 
 #Question 8
 # Given a non-empty string like "Code" return a string like "CCoCodCode".
@@ -137,7 +129,6 @@ def string_splosion(str):
         result += str[0:i + 1]
     return result
  
--------------------------------------------------------------------
 
 #Question 9
 # Given a string and a non-negative int n, return a
